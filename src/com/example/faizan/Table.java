@@ -3,14 +3,7 @@ package com.example.faizan;
 import java.util.Scanner;
 
 class Table {
-    public void table() {
-        Scanner S = new Scanner(System.in);
-        System.out.println("Table of number ?");
-        int a = S.nextInt();
-        System.out.println("From ?");
-        int b = S.nextInt();
-        System.out.println("To ?");
-        int c = S.nextInt();
+    public void table(int a, int b, int c) {
         int d = b;
         int e;
         while (d <= c) {
