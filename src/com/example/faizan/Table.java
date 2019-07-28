@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 class Table {
     public void table() {
-        //every thing is fine here_______
-        //                               |
-        //                               V
-        //___________________________________________________________________________________________________________
         Scanner S = new Scanner(System.in);
         System.out.println("Table of number ?");
         int a = S.nextInt();
